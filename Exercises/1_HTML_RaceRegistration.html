@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <link rel="stylesheet" href="1_HTML_Exercises.css">
+</head>
+
+<body>
+
+    <h1>Race Registration</h1>
+
+    <form action="/whatever">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" />
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" />
+        <p>
+            Select a Race:
+        </p>
+        <input type="radio" name="racetype" id="fun-run-5k" value="fun-run-5k" />
+        <label for="fun-run-5k">Fun Run 5K</label><br>
+        <input type="radio" name="racetype" id="half-marathon" value="half-marathon" />
+        <label for="half-marathon">Half Marathon</label><br>
+        <input type="radio" name="racetype" id="full-marathon" value="full-marathon" />
+        <label for="full-marathon">Full Marathon</label><br>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+            <label for="email">Password</label>
+            <input type="password" name="password" />
+            <p>
+                <label for="age-group">Select your Age Group</label>
+                <select name="age-group" id="age-group">
+            <option value="under-18">Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="31-50">31-50</option>
+            <option value="50+">50+</option>
+        </select>
+            </p>
+
+
+        </p>
+        <button>Register!</button>
+
+
+
+    </form>
+
+</body>
+
+</html>
